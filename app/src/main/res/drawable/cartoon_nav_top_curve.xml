@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="20dp"
+    android:viewportWidth="360"
+    android:viewportHeight="20">
+
+    <!-- Curved path with exaggerated cartoonish wave -->
+    <path
+        android:fillColor="@color/cartoon_primary"
+        android:pathData="M0,0
+                         C60,20 100,0 120,10
+                         C140,20 180,0 240,10
+                         C300,20 340,0 360,0
+                         Z"/>
+
+    <!-- Optional decorative dots -->
+    <path
+        android:fillColor="@color/cartoon_accent"
+        android:pathData="M90,5a3,3 0 1,1 6,0a3,3 0 1,1 -6,0
+                         M180,8a2,2 0 1,1 4,0a2,2 0 1,1 -4,0
+                         M270,4a2.5,2.5 0 1,1 5,0a2.5,2.5 0 1,1 -5,0"/>
+</vector>

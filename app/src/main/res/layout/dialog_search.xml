@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:padding="8dp">
+
+    <!-- Animated Search Card -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/search_card"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_margin="8dp"
+        app:cardBackgroundColor="@color/cartoon_card_bg"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="6dp"
+        app:strokeColor="@color/cartoon_primary"
+        app:strokeWidth="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingStart="16dp"
+            android:paddingEnd="8dp">
+
+            <ImageView
+                android:id="@+id/search_icon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="12dp"
+                android:src="@drawable/ic_cartoon_search"
+                app:tint="@color/cartoon_primary" />
+
+            <androidx.appcompat.widget.SearchView
+                android:id="@+id/search_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toEndOf="@id/search_icon"
+                android:layout_toStartOf="@id/close_button"
+                android:background="@android:color/transparent"
+                android:iconifiedByDefault="false"
+                android:queryHint="Search videos..."
+                app:iconifiedByDefault="false"
+                app:queryHint="@string/search_hint"
+                app:searchIcon="@null"
+                app:closeIcon="@null"
+                style="@style/CartoonSearchView" />
+
+            <!-- Close Button -->
+            <ImageView
+                android:id="@+id/close_button"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/ic_cartoon_close"
+                android:contentDescription="@string/close"
+                android:visibility="gone"
+                app:tint="@color/cartoon_primary" />
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Bouncy Results RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/search_results_recycler"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:maxHeight="450dp"
+        android:clipToPadding="false"
+        android:padding="12dp"
+        android:overScrollMode="never"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/search_card"
+        tools:listitem="@layout/item_video" />
+
+    <!-- Floating Search Decorations -->
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_cartoon_star_decoration"
+        android:layout_margin="16dp"
+        android:rotation="-15"
+        app:layout_constraintBottom_toTopOf="@id/search_card"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:tint="@color/cartoon_accent" />
+
+    <ImageView
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:src="@drawable/ic_cartoon_play_decoration"
+        android:layout_margin="12dp"
+        android:rotation="10"
+        app:layout_constraintBottom_toTopOf="@id/search_card"
+        app:layout_constraintStart_toStartOf="parent"
+        app:tint="@color/cartoon_accent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

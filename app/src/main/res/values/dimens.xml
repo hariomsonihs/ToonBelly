@@ -1,0 +1,11 @@
+<!-- res/values/dimens.xml -->
+<resources>
+    <!-- Add this line if the file doesn't exist -->
+    <dimen name="grid_spacing">8dp</dimen>
+    <dimen name="card_corner_radius">16dp</dimen>
+    <dimen name="card_elevation">8dp</dimen>
+    <dimen name="card_margin">16dp</dimen>
+    <dimen name="icon_size">24dp</dimen>
+    <dimen name="section_title_size">20sp</dimen>
+    <dimen name="option_text_size">16sp</dimen>
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pink">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="red">#FF0000</color>
+    <color name="background_dark">#121212</color>
+    <color name="text_secondary">#B3FFFFFF</color>
+    <color name="colorAccent">#FFD54F</color> <!-- Amber Yellow -->
+
+    <!-- Background Colors -->
+    <color name="colorBackground">#FFFFFF</color> <!-- White -->
+
+
+    <!-- Text Colors -->
+    <color name="colorTextPrimary">#212121</color> <!-- Dark Grey/Black -->
+    <color name="colorTextSecondary">#757575</color> <!-- Medium Grey -->
+
+    <!-- Card/Item Colors -->
+    <color name="colorCard">#FFFFFF</color> <!-- White Cards -->
+    <color name="colorCardShadow">#33000000</color> <!-- Light Shadow -->
+
+    <!-- Icon & Border Colors -->
+    <color name="colorIcon">#616161</color> <!-- Grey -->
+    <color name="colorDivider">#E0E0E0</color> <!-- Divider Grey -->
+
+    <!-- Special Colors -->
+    <color name="colorPlay">#4CAF50</color> <!-- Play button Green -->
+    <color name="colorHighlight">#29B6F6</color> <!-- Light Blue Highlight -->
+    <color name="purple_500">#9C27B0</color>
+
+    <!-- Gray (Neutral Gray) -->
+    <color name="gray">#9E9E9E</color>
+    <color name="progressBarColor">#FFD700</color>
+    <!-- Optional Variants -->
+    <color name="gray_light">#E0E0E0</color>
+    <color name="gray_dark">#616161</color>
+
+    <color name="purple_700">#3700B3</color>
+    <color name="purple_200">#BB86FC</color>
+    <color name="light_bg">#FAFAFA</color>
+    <color name="text_dark">#212121</color>
+
+    <!-- Light mode colors -->
+    <color name="colorPrimary">#3F51B5</color> <!-- Indigo 500 for primary buttons, accents -->
+    <color name="colorPrimaryVariant">#303F9F</color> <!-- Indigo 700 for status bar, darker accents -->
+    <color name="colorOnPrimary">#FFFFFF</color> <!-- White text/icons on primary color -->
+    <color name="colorSecondary">#26A69A</color> <!-- Teal 500 for secondary buttons, highlights -->
+    <color name="colorSecondaryVariant">#00796B</color> <!-- Teal 700 for darker secondary accents -->
+    <color name="colorOnSecondary">#FFFFFF</color> <!-- White text/icons on secondary color -->
+    <color name="colorSurface">#FFFFFF</color> <!-- White background for cards, layouts -->
+    <color name="colorOnSurface">#212121</color> <!-- Dark gray for text/icons on surface -->
+    <color name="textPrimary">#212121</color> <!-- Primary text color (dark gray) -->
+    <color name="textSecondary">#757575</color> <!-- Secondary text color (lighter gray) -->
+    <color name="text_hint">#B0BEC5</color> <!-- Light gray for hint text (e.g., SearchView) -->
+    <color name="favorite_red">#FF0000</color> <!-- Red for filled favorite icon -->
+
+    <!-- Dark mode colors -->
+    <color name="colorPrimaryDark">#7986CB</color> <!-- Indigo 300 for primary in dark mode -->
+    <color name="colorPrimaryVariantDark">#5C6BC0</color> <!-- Indigo 400 for status bar in dark mode -->
+    <color name="colorOnPrimaryDark">#000000</color> <!-- Black text/icons on primary in dark mode -->
+    <color name="colorSecondaryDark">#4DB6AC</color> <!-- Teal 300 for secondary in dark mode -->
+    <color name="colorSecondaryVariantDark">#26A69A</color> <!-- Teal 500 for darker secondary in dark mode -->
+    <color name="colorOnSecondaryDark">#000000</color> <!-- Black text/icons on secondary in dark mode -->
+    <color name="colorSurfaceDark">#121212</color> <!-- Dark gray background for cards, layouts -->
+    <color name="colorOnSurfaceDark">#E0E0E0</color> <!-- Light gray for text/icons on dark surface -->
+    <color name="textPrimaryDark">#E0E0E0</color> <!-- Light gray for primary text in dark mode -->
+    <color name="textSecondaryDark">#B0BEC5</color> <!-- Lighter gray for secondary text in dark mode -->
+    <color name="cartoon_primary">#FF6B6B</color>
+    <color name="cartoon_primary_dark">#FF8E8E</color>
+    <color name="cartoon_card_bg">#FFFFFF</color>
+    <color name="cartoon_text_dark">#3D3D3D</color>
+    <color name="cartoon_text_light">#888888</color>
+    <color name="cartoon_divider">#E0E0E0</color>
+    <color name="cartoon_switch_track">#FFCDD2</color>
+    <color name="cartoon_highlight">#FF2196F3</color>
+        <!-- For switch thumb in different states -->
+        <color name="switch_thumb_normal">#FF6B6B</color>
+        <color name="switch_thumb_pressed">#FF8E8E</color>
+
+    <color name="cartoon_accent">#FFD166</color>  <!-- Sunny yellow -->
+    <color name="cartoon_accent_light">#FFE8A0</color>
+    <color name="cartoon_accent_dark">#EFB04D</color>
+
+    <color name="cartoon_primary_light">#FF9E40</color>
+</resources>
